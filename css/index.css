@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  flex: 1;
+}
+
+label {
+  font-weight: bold;
+}
+
+input{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+button {
+  background-color: #DC143C;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  width: 250px;
+  box-sizing: border-box;
+  margin-right: 25px;
+  font-size: 17px;
+}
+
+button:hover {
+  background-color: #B22222;
+  color: #fff;
+  outline: none;
+}
+
+.upload-button {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #DC143C;
+  color: #fff;
+  margin-right: 115px;
+}
+
+.upload-button:hover {
+  background-color: #B22222;
+  color: #fff;
+  outline: none;
+}
+
+.header {
+  border-bottom: 2px solid #708090;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 275px;
+  margin-right: 20px;
+  margin-bottom: -25px;
+  margin-top: -20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.workers-image {
+  width: 1000px;
+}
+
+.main-text {
+  font-size: 45px;
+  margin: 20px 0;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.secondary-text {
+  font-size: 25px;
+  margin: 20px 0;
+  color: #708090;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #1C1C1C;
+  color: #808080;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 20px solid #4F4F4F;
+}
+
+.footer img {
+  width: 150px;
+  margin-right: 20px;
+  padding-left: 50px;
+}
+
+.footer-text{
+  font-size: 10px;
+  position: absolute;
+  left: 100px;
+  top: 85px;
+}
+
